@@ -9,14 +9,6 @@
                             :entries    [bongo.user fortune.core "moment"]
                             :exclude    #{cljs.js}}
                 
-                ;:browser   {:target           :browser
-                ;            :output-dir       "out/public/js"
-                ;            :asset-path       "/js"
-                ;            :compiler-options {:optimizations :simple}
-                ;            :modules          {:base {:entries [shadow-eval.core]}}
-                ;            :devtools         {:http-root  "out/public"
-                ;                               :http-port  8702
-                ;                               :after-load shadow-eval.core/render}}
                 
                 
                 }}
